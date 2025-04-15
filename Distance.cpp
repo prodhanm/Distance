@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int distanceV(float v0, float v, float a) {
+float distanceV(float v0, float v, float a) {
     float d = (pow(v, 2) - pow(v0, 2) / (2 * a));
     return d;
 }
